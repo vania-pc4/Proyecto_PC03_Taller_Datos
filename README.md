@@ -22,9 +22,11 @@ Vania Prado - Pontificia Universidad Católica del Perú (PUCP)
 ## Programas y librerías utilizadas
 El proyecto está desarrollado en R 4.5.2 con las siguientes
 librerías:
-- `tidyverse`: para el procesamiento y visualización de datos
+- `tidyverse`: para la carga, procesamiento y unión de los 
+   módulos de la ENAHO
 
 La versión de todas las librerías se controla usando `renv`.
+
 ## Estructura del repositorio
 
 ```
