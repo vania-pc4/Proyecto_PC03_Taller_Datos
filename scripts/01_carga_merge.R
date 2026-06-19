@@ -23,3 +23,24 @@ names(empleo)
 names(inseg_alim)
 names(sumarias)
 names(miembros)
+
+# 3. MERGE ---------------------------------------------------
+# Unión estándar ENAHO: CONGLOME + VIVIENDA + HOGAR
+
+base_integrada <- sumarias %>%
+  left_join(empleo,
+            by = c("CONGLOME", "VIVIENDA", "HOGAR")) %>%
+  left_join(inseg_alim,
+            by = c("CONGLOME", "VIVIENDA", "HOGAR")) %>%
+  left_join(miembros,
+            by = c("CONGLOME", "VIVIENDA", "HOGAR"))
+
+# 4. VERIFICACIÓN --------------------------------------------
+
+glimpse(base_integrada)
+nrow(base_integrada)
+
+# 5. EXPORTACIÓN --------------------------------------------
+
+saveRDS(base_integrada, "datos/procesados/base_integrada.rds")
+write_csv(base_integrada, "datos/procesados/base_integrada.csv")
