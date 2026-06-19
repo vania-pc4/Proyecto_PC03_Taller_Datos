@@ -26,24 +26,24 @@ librerías:
 - `janitor`: para limpieza de nombres de variables de la ENAHO
 
 La versión de todas las librerías se controla usando `renv`.
-
 ## Estructura del repositorio
-├── 00_setup.R               # Script principal: crea carpetas
-│                              y enlaza con GitHub
+
+```
+Proyecto_PC03_Taller_Datos/
+├── 00_setup.R                        # Script principal: crea carpetas y enlaza con GitHub
 ├── datos/
-│   ├── crudos/              # Módulos originales ENAHO en
-│   │                          formato .csv (no subidos a GitHub)
-│   └── procesados/          # Base integrada procesada
-├── docs/                    # Documentación del proyecto
-├── outputs/                 # Tablas y gráficos
+│   ├── crudos/                       # Módulos originales ENAHO en .csv (no subidos a GitHub)
+│   └── procesados/                   # Base integrada procesada
+├── docs/                             # Documentación del proyecto
+├── outputs/                          # Tablas y gráficos
 ├── scripts/
-│   └── 01_carga_merge.R     # Carga y merge de módulos ENAHO
+│   └── 01_carga_merge.R              # Carga y merge de módulos ENAHO
 ├── .gitignore
 ├── .Rprofile
 ├── Proyecto_PC03_Taller_Datos.Rproj
 ├── README.md
-└── renv.lock                # Registro de versiones de librerías
-
+└── renv.lock                         # Registro de versiones de librerías
+```
 ## Módulos ENAHO 2025 utilizados
 | Código | Módulo | Rol en el análisis |
 |--------|--------|--------------------|
