@@ -4,3 +4,12 @@
 .httr-oauth
 .DS_Store
 .quarto
+
+datos/crudos/
+*.sav
+*.dta
+.Rhistory
+.RData
+renv/library/  
+renv/staging/
+datos/procesados/*.csv
