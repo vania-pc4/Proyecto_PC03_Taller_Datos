@@ -1,7 +1,7 @@
 #===========================================================================================
 #Proyecto: Análisis  de la relación entre la condición de empleo e ingresos 
-laborales y la inseguridad alimentaria en hogares peruanos, 
-utilizando los módulos de la ENAHO 2025. usando datos de la ENAHO
+#laborales y la inseguridad alimentaria en hogares peruanos, 
+#utilizando los módulos de la ENAHO 2025. usando datos de la ENAHO
 #Autora: Vania Prado
 #Objetivo de este script: Crear el sistema de carpetas y enlazar con GitHub
 #Fecha: 19-06-2026
