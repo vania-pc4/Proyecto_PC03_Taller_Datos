@@ -23,7 +23,6 @@ Vania Prado - Pontificia Universidad Católica del Perú (PUCP)
 El proyecto está desarrollado en R 4.5.2 con las siguientes
 librerías:
 - `tidyverse`: para el procesamiento y visualización de datos
-- `janitor`: para limpieza de nombres de variables de la ENAHO
 
 La versión de todas las librerías se controla usando `renv`.
 ## Estructura del repositorio
